@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">        
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Wessel©</title>
+    </head>
+    <body>       
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="navlogo">hoi</a>
+                </div>
+
+                <div class="navmenu" id="nav-menu">
+                    <ul class="navlist">
+                        <li class="navitem"> <div title="Zet darkmode aan of uit!" class="checkbox-wrapper-4">
+                            <input title="Zet darkmode aan!" onclick="darkmode()" class="inp-cbx" id="morning" type="checkbox"/>
+                            <label class="cbx" for="morning"><span>
+                            <svg width="12px" height="10px">
+                              <use xlink:href="#check-4"></use>
+                            </svg></span><span>Darkmode</span></label>
+                            <svg class="inline-svg">
+                              <symbol id="check-4" viewbox="0 0 12 10">
+                                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                              </symbol>
+                            </svg>
+                          </div></li>
+                          
+
+                          
+                        
+                        <li class="navitem"><a href="#home" class="navlink active">Home</a></li>
+                        <li class="navitem"><a href="#about" class="navlink">About</a></li>
+                        <li class="navitem"><a href="#skills" class="navlink">Skills</a></li>
+                        <li class="navitem"><a href="#Projecten" class="navlink">Projecten</a></li>
+                        <li class="navitem"><a href="#contact" class="navlink">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="navtoggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            
+            <section class="home bd-grid" id="home">
+                <div class="homedata">
+                    <h1 class="hometitle">Hallo,<br>Ik ben <span class="hometitle-color">Wessel!</span><br>Software Developer</h1>
+
+                    <a href="#contact" title="Send me a mail right away!" class="button">Contact</a>
+                </div>
+
+                <div class="homesocial">
+                    <a href="" title="Instagram" class="homesocial-icon"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="" title="Email" class="homesocial-icon"><i class='bx bxs-envelope' ></i></a>
+                    <a href="" title="Github" class="homesocial-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="homeimg">
+                    <svg class="homeblob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="homeblob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="aboutcontainer bd-grid">
+                    <div class="aboutimg">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="aboutsubtitle">I'am Wessel</h2>
+                        <p class="abouttext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skillscontainer bd-grid">          
+                    <div>
+                        <h2 class="skillssubtitle">Mijn software skills</h2>
+                        <p class="skillstext">De talen die ik beheers en goed kan toepassen staan hier onder, De precentage geeft aan hoevaak ik de taal gebruik en of ik het goed beheers. 
+                            HTML5, CC3 en Javascript worden zelfs al gebruikt om deze website op te bouwen. 
+                        </p>
+                        <div title="html" class="skillsdata">
+                            <div class="skillsnames">
+                                <i class='bx bxl-html5 skillsicon'></i>
+                                <span class="skillsname">HTML5</span>
+                            </div>
+                            <div class="skillsbar skillshtml">
+
+                            </div>
+
+                        </div>
+                        <div title="css" class="skillsdata">
+                            <div class="skillsnames">
+                                <i class='bx bxl-css3 skillsicon'></i>
+                                <span class="skillsname">CSS3</span>
+                            </div>
+                            <div class="skillsbar skillscss">
+                                
+                            </div>
+
+                        </div>
+                        <div  title="javascript" class="skillsdata">
+                            <div class="skillsnames">
+                                <i class='bx bxl-javascript skillsicon' ></i>
+                                <span class="skillsname">JAVASCRIPT</span>
+                            </div>
+                            <div class="skillsbar skillsjs">
+                                
+                            </div>
+
+                        </div>
+                        <div title="java" class="skillsdata">
+                            <div class="skillsnames">
+                                <img class="skillsicon" id="javaicon" src="java.svg" alt="">
+                                <span class="skillsname">JAVA</span>
+                            </div>
+                            <div class="skillsbar skillsjava">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skillsimg">
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="Projecten section" id="Projecten">
+                <h2 class="section-title">Projecten</h2>
+
+                <div class="workcontainer bd-grid">
+                    <a href="" class="workimg">
+                        <img title="Mastermind!" class="imgprojectsworks" src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="workimg">
+                        <img title="PinkGoose!" class="imgprojectsworks" src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="workimg">
+                        <img title="School Website" class="imgprojectsworks" src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="workimg">
+                        <img title="Steen Papier Schaar" class="imgprojectsworks" src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="workimg">
+                        <img title="Russian roulette" class="imgprojectsworks" src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="workimg">
+                        <img title="Cijfer rader!" class="imgprojectsworks" src="assets/img/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contactcontainer bd-grid">    
+                    <form action="https://formsubmit.co/wesselschaminee2006@gmail.com" method="POST" class="contactform">
+                        <input type="text" name="name" placeholder="Name" class="contactinput" required>
+                        <input type="hidden" name="subject" value="Nieuwe Email!">
+                        <input type="mail" name="email" placeholder="Email" class="contactinput" required>
+                        <textarea placeholder="Bericht" name="message" id="" cols="0" rows="10" class="contactinput" required></textarea>
+                        <input type="submit" value="Stuur" class="contactbutton button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+       
+        <footer class="footer">
+            <p class="footertitle">Wessel</p>
+            <div class="footersocial">
+                <a href="#" class="footericon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footericon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footericon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footercopy">&#169; Wessel. All rigths reserved</p>
+        </footer>
+
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+
+        
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
